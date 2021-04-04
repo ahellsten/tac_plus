@@ -10,8 +10,9 @@ docker run -d --name tac_plus \
 # Sample config:
 [Here](https://www.pro-bono-publico.de/projects/tac_plus.html#AEN161)
 
-Note: replace mavis path with "/usr/lib/mavis/mavis_tacplus_passwd.pl"
-
+Notes:
+- Replace mavis path with "/usr/lib/mavis/mavis_tacplus_passwd.pl"
+- Generate cypted password to config file with "openssl passwd -crypt <password>"
 
 # Links
 [Docs](http://www.pro-bono-publico.de/projects/tac_plus.html)
