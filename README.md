@@ -4,7 +4,7 @@
 docker run -d --name tac_plus \
 -v /path/to/tac_plus.conf:/etc/tac_plus.conf \
 -v /path/to/logs/folder:/var/log/tac_plus
--p 49:49 dockerapp/tac_plus
+-p 49:49 artiz/tac_plus:ubuntu
 ```
 
 # Sample config:
