@@ -60,4 +60,4 @@ bzip2 \
 
 EXPOSE 49
 
-CMD tac_plus -f ${conf}
+CMD tac_plus -f -d4 ${conf}
